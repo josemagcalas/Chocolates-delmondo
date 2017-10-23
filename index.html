@@ -6,56 +6,125 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chooclate Del Mondo</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-    <div class="container">
+    <div id="wallpapaerImg" class="container-fluid justify-content-center">
+
+            <ul class="nav  d-flex justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#!">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#!">EMPLOYMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">CART</a>
+                    </li>
+                 </ul>
 
 
-        <div class="header">
+        <div  class="header">
             <div class="logoCon d-flex justify-content-center">
                 <h1 class="logo">LOGO</h1>
             </div>
 
-            <nav>
-                    <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link" href="#!">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#!">LOCATION</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#!">PRODUCTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#!">MENU</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#!">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#!">CONTACT US</a>
-                            </li>
-                         </ul>
-                </nav>
+
+            <!-- <nav class="navbar navbar-expand-sm ju">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    
+                    <div class="collapse navbar-collapse" id="nav-content">
+                        <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#!">HOME</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#!">LOCATION</a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a class="nav-link" href="#!">PRODUCTS</a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a class="nav-link" href="#!">MENU</a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a class="nav-link" href="#!">ABOUT US</a>
+                                      </li>
+                                      <li class="nav-item">
+                                              <a class="nav-link" href="#!">CONTACT US</a>
+                                      </li>
+                        </ul>
+                    </div>
+                </nav> -->
+
+
+
+                <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
+                        <!-- Brand -->
+                        
+                    
+                        <!-- Links -->
+                        <div class="collapse navbar-collapse" id="nav-content">
+                            <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="#!">HOME</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#!">LOCATION</a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#!">PRODUCTS</a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#!">MENU</a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#!">ABOUT US</a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#!">CONTACT US</a>
+                                          </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+
 
 
         </div>
 
 
-        <div class="boxShadow">
-        
+        <div class="boxShadow d-flex align-self-center">
+
+            <div class="HeroText"></div>
+            <div class="AboutUs"></div>
+            <div class="cards"></div>
         </div>
+
+        <footer></footer>
 
 </div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>     -->
 </body>
 </html>

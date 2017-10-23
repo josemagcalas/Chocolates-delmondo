@@ -1,0 +1,32 @@
+/* .header {
+    background-color: #fff111;
+    max-height: 300px;
+}
+
+.logoCon {
+    width: 100%;
+
+}
+*/
+body {
+   
+}
+
+
+.boxShadow {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    padding: 0 50px;
+    box-shadow: 0px 0px 50px 0px #888888;
+}
+
+#wallpapaerImg {
+     background-image: url("../img/Hero.jpg") ;
+     background-repeat: no-repeat;
+     background-position: 50% 0%   ;
+     
+     
+
+     
+}
